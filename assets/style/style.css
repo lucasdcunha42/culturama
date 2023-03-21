@@ -293,7 +293,6 @@ img:hover {
     background-color: var(--cinza-escuro);
     color: white;
     text-transform: uppercase;
-    padding-top: 1rem;
 }
 
 .agenda__informacoes h3 {
@@ -313,7 +312,6 @@ img:hover {
 .agenda__atracao h6 {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 2rem;
 }
 
 .agenda__atracao button {

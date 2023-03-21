@@ -34,6 +34,40 @@
     max-width: 400px;
 }
 
+.agenda__lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.agenda__informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.agenda__atracao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.agenda__item {
+    flex-grow: 1;
+}
+
+.agenda__botao, .eventos__botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
 @media (min-width: 720px) {
     .menu {
         column-gap: 75px;
@@ -41,9 +75,6 @@
 
     .categorias__lista {
         flex-wrap: wrap;
-    }
-    .eventos__lista { 
-        justify-content: end;
     }
 
 }

@@ -12,7 +12,16 @@
     grid-row: 2/4;
 }
 
+.eventos__item {
+    display: grid;
+}
+
 @media (min-width: 720px) {
+
+    .banner {
+        grid-template-columns: calc(50% - 0.5rem) auto auto;
+        column-gap: 1rem;
+    }
 
     .banner img:nth-child(1) {
         grid-column: 1/2;
